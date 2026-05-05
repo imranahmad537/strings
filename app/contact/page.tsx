@@ -171,7 +171,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-gray-400 text-xs uppercase tracking-widest mb-1">Office</h4>
-                                    <p className="text-[#0A1116] font-medium">Board bazar peshawar</p>
+                                    <p className="text-[#0A1116] font-medium">Office No 06 & 07, KPIT Park, Peshawar</p>
                                 </div>
                             </div>
 
