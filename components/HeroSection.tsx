@@ -10,6 +10,7 @@ type FloatingCardProps = {
     className?: string
 }
 
+// Fixed: Added the type definition to the function arguments
 const FloatingCard = ({
     icon,
     stage,
