@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+/* Define your theme variables here to keep your components clean */
+@theme {
+  --color-tech-dark: #0A1116;
+  --color-tech-orange: #E1702C;
+  --color-tech-orange-light: #F29C5D;
+
+  /* If you want to add the custom fonts you mentioned in Figma */
+  --font-heading: "Inter", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-tech-dark text-white antialiased;
+  }
+}
+
+/* Add this to globals.css */
+.crisp-image {
+  image-rendering: -webkit-optimize-contrast;
+  /* Chrome/Safari */
+  image-rendering: crisp-edges;
+  /* Firefox */
+  image-rendering: high-quality;
+}
+
+/* @import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +51,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
