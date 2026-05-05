@@ -86,7 +86,7 @@ const ContactPage = () => {
                                     <input
                                         type="text"
                                         placeholder="Your company"
-                                        className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors"
+                                        className="w-full bg-gray-50 border border-gray-400 p-4 outline-none focus:border-tech-orange transition-colors"
                                         onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
                                     />
                                 </div>
