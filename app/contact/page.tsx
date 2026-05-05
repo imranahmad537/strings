@@ -137,7 +137,6 @@ const ContactPage = () => {
                             </div>
                         </form>
                     </div>
-
                     {/* Right Column: Contact Info */}
                     <div className="lg:col-span-5 lg:border-l border-gray-100 lg:pl-20 py-4">
                         <h2 className="text-[#0A1116] text-4xl font-bold mb-12">
@@ -202,6 +201,7 @@ const ContactPage = () => {
                     </button>
                 </div>
             </section>
+            <div></div>
         </div>
     );
 };
