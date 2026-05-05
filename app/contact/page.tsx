@@ -63,7 +63,7 @@ const ContactPage = () => {
                                     <input
                                         type="text"
                                         placeholder="Full Name"
-                                        className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors"
+                                        className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors"
                                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                                         required
                                     />
@@ -73,7 +73,7 @@ const ContactPage = () => {
                                     <input
                                         type="email"
                                         placeholder="you@company.com"
-                                        className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors"
+                                        className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors"
                                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                         required
                                     />
@@ -86,7 +86,7 @@ const ContactPage = () => {
                                     <input
                                         type="text"
                                         placeholder="Your company"
-                                        className="w-full bg-gray-50 border border-gray-400 p-4 outline-none focus:border-tech-orange transition-colors"
+                                        className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors"
                                         onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
                                     />
                                 </div>
@@ -95,7 +95,7 @@ const ContactPage = () => {
                                     <input
                                         type="tel"
                                         placeholder="+92 123456789"
-                                        className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors"
+                                        className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors"
                                         onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
                                     />
                                 </div>
@@ -104,7 +104,7 @@ const ContactPage = () => {
                             <div className="space-y-2">
                                 <label className="text-[#0A1116] font-bold text-sm">What we can help you with?</label>
                                 <select
-                                    className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors appearance-none cursor-pointer"
+                                    className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors appearance-none cursor-pointer"
                                     onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                                 >
                                     <option value="">Select a service</option>
@@ -119,7 +119,7 @@ const ContactPage = () => {
                                 <textarea
                                     rows={4}
                                     placeholder="Tell us about your project or idea..."
-                                    className="w-full bg-gray-50 border border-gray-100 p-4 outline-none focus:border-tech-orange transition-colors resize-none"
+                                    className="w-full  border-b border-gray-300 p-4 outline-none focus:border-tech-orange transition-colors resize-none"
                                     onChange={(e) => setFormData({ ...formData, projectDetails: e.target.value })}
                                 />
                             </div>
