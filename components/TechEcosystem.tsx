@@ -15,6 +15,11 @@ interface TechCategory {
 }
 
 const TechStack: React.FC = () => {
+    const customIcons = {
+        Odoo: "/odoo.png",
+        Shopify: "/shopify.png",
+        Wordpress: "/wordpress.png",
+    }
     const stack: TechCategory[] = [
         {
             title: "Languages",
@@ -49,7 +54,7 @@ const TechStack: React.FC = () => {
             categoryIcon: <Monitor className="w-4 h-4" />,
             items: [
                 { name: "React.js", iconClass: "devicon-react-original colored" },
-                { name: "Angular", iconClass: "devicon-angular-plain colored" },
+                { name: "Angular", iconClass: "devicon-angularjs-plain colored" },
                 { name: "Next.js", iconClass: "devicon-nextjs-plain colored" }
             ]
         },
@@ -59,7 +64,7 @@ const TechStack: React.FC = () => {
             items: [
                 { name: "Shopify", iconClass: "devicon-shopify-plain colored" },
                 { name: "WordPress", iconClass: "devicon-wordpress-plain colored" },
-                { name: "Wix", iconClass: "devicon-wix-original colored" }
+                // { name: "Wix", iconClass: "devicon-wix-original colored" }
             ]
         },
         {
@@ -106,9 +111,19 @@ const TechStack: React.FC = () => {
                                             key={item.name}
                                             className="bg-white border border-gray-100 px-4 py-3 rounded-md flex items-center gap-3 shadow-sm hover:border-tech-orange/30 transition-all duration-300 group"
                                         >
-                                            {/* ICON INTEGRATION */}
-                                            {item.name === "Odoo" ? <img src="/odoo.png" alt="Odoo" className="w-8 h-8" /> : <i className={`${item.iconClass} text-2xl text-[#0A1116] group-hover:text-tech-orange transition-colors`}></i>}
 
+                                            {/* {item.name === "Odoo" ? <img src="/odoo.png" alt="Odoo" className="w-8 h-8" /> : <i className={`${item.iconClass} text-2xl text-[#0A1116] group-hover:text-tech-orange transition-colors`}></i>} */}
+                                            {
+                                                item.name === "Odoo" ? (
+                                                    <img src="/odoo.png" alt="Odoo" className="w-8 h-8" />
+                                                ) : item.name === "Shopify" ? (
+                                                    <img src="/shopify.png" alt="Shopify" className="w-14 h-10" />
+                                                ) : (
+                                                    <i
+                                                        className={`${item.iconClass} text-2xl text-[#0A1116] group-hover:text-tech-orange transition-colors`}
+                                                    ></i>
+                                                )
+                                            }
                                             <span className="text-[#0A1116] text-sm font-bold tracking-tight">
                                                 {item.name}
                                             </span>
