@@ -26,11 +26,11 @@ const ContactPage = () => {
             <section className="relative h-[400px] flex items-center px-6 lg:px-12 bg-black overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="/images/contact-hero.jpg" // Use the handshake/graph image from your Figma
+                        src="/contactpageimg.png" // Use the handshake/graph image from your Figma
                         alt="Collaboration"
-                        className="w-full h-full object-cover opacity-50"
+                        className="w-full h-full object-cover opacity-90"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-black via-black/20 to-transparent" />
                 </div>
 
                 <div className="relative z-10 max-w-[1440px] mx-auto w-full">

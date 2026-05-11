@@ -29,6 +29,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      // Inside your layout.tsx or a Head component
+      <link
+        rel="stylesheet"
+        type='text/css'
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+      />
       <body className="flex min-h-full flex-col bg-[#0A1116]">
         <Header />
 
