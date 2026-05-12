@@ -58,7 +58,7 @@ export default function HeroSection() {
     return (
         <section className="relative w-full h-screen bg-tech-dark overflow-hidden font-body">
             {/* Background */}
-            <div className="absolute inset-0 z-0">
+            {/* <div className="absolute inset-0 z-0">
                 <Image
                     src="/herobg.jpeg"
                     alt="Digital Engineering Wave"
@@ -69,6 +69,24 @@ export default function HeroSection() {
                     sizes="100vw"
                 />
 
+                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-[1]" />
+                <div className="absolute inset-0 bg-black/40 z-[0]" />
+            </div> */}
+            {/* Background */}
+            <div className="absolute inset-0 z-0">
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute inset-0 w-full h-full object-cover object-center"
+                >
+                    <source src="/herovid.mp4" type="video/mp4" />
+                    {/* Optional: Add a fallback image if the video fails to load */}
+                    <img src="/herobg.jpeg" alt="Fallback" className="w-full h-full object-cover" />
+                </video>
+
+                {/* Overlays */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-[1]" />
                 <div className="absolute inset-0 bg-black/40 z-[0]" />
             </div>
