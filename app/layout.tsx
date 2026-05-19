@@ -42,7 +42,7 @@ export default function RootLayout({
       flex-grow ensures the main content pushes the footer to the bottom 
       on pages with very little content.
     */}
-        <main className="flex-grow pt-20">
+        <main className="flex-grow pt-10">
           {children}
         </main>
 

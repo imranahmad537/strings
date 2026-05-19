@@ -64,7 +64,7 @@ export default function ServicesPage() {
 
             {/* ================= 1. HERO SECTION ================= */}
             <section className="relative bg-black/60 py-32 px-6 lg:px-12 overflow-hidden border-b border-white/5">
-                <div className="max-w-[1440px] mx-auto z-100 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
                     <div className="lg:col-span-7 max-w-[680px]">
                         <div className="flex items-center gap-2 mb-6">
                             <span className="text-[10px] font-mono font-bold tracking-[0.4em] text-[#E1702C] uppercase">
