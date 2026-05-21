@@ -197,7 +197,7 @@ export default function ServicesPage() {
             </section>
 
             {/* ================= 4. CALL TO ACTION ================= */}
-            <section className="py-32 px-6 text-center bg-white">
+            {/* <section className="py-32 px-6 text-center bg-white">
                 <div className="max-w-3xl mx-auto">
                     <span className="inline-block bg-[#0A1116] text-white text-[9px] font-mono font-bold tracking-[0.3em] uppercase px-4 py-1.5 rounded-md mb-6">
                         Next Step
@@ -217,7 +217,7 @@ export default function ServicesPage() {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </main>
     );
