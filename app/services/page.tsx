@@ -1,100 +1,52 @@
-import {
-    LayoutGrid,
-    Cpu,
-    Globe,
-    BarChart3,
-    ShoppingBag,
-    GraduationCap
-} from 'lucide-react';
-import ServiceCard from '../../components/ServiceCard';
+"use client"
+import React, { useState } from 'react';
+import ServiceCard from '@/components/ServiceCard'; // Import the clean standalone component
 
-const Competencies = () => {
-    const services = [
-        {
-            icon: LayoutGrid,
-            title: "Business Platforms",
-            description: "Centralized ecosystems that orchestrate your entire operational workflow from end-to-end.",
-            linkText: "EXPLORE PLATFORM",
-            href: "/services/business-platforms"
-        },
-        {
-            icon: Cpu,
-            title: "AI-Powered Solutions",
-            description: "Injecting intelligent automation and predictive analytics into legacy business processes.",
-            linkText: "EXPLORE AI",
-            href: "/services/ai"
-        },
-        {
-            icon: Globe,
-            title: "Web Applications",
-            description: "High-performance, secure, and responsive web experiences built for modern browser standards.",
-            linkText: "EXPLORE WEB",
-            href: "/services/web-apps"
-        },
-        {
-            icon: BarChart3,
-            title: "Management Systems",
-            description: "Robust tools for tracking assets, resources, and performance metrics across departments.",
-            linkText: "EXPLORE SYSTEMS",
-            href: "/services/management"
-        },
-        {
-            icon: ShoppingBag,
-            title: "Ecommerce Experiences",
-            description: "Frictionless digital storefronts optimized for conversion and massive transactional scale.",
-            linkText: "EXPLORE COMMERCE",
-            href: "/services/ecommerce"
-        },
-        {
-            icon: GraduationCap,
-            title: "Digital Enablement",
-            description: "Custom training tools and LMS platforms designed to empower teams through knowledge.",
-            linkText: "EXPLORE TRAINING",
-            href: "/services/enablement"
-        }
-    ];
+const servicesData = [
+    { title: "Digital Transformation", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/digital-transformation", bgImage: "/images/srv-digital.jpg" },
+    { title: "Digital Marketing", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/digital-marketing", bgImage: "/images/srv-marketing.jpg" },
+    { title: "AI Consultancy", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/ai-consultancy", bgImage: "/images/srv-ai.jpg" },
+    { title: "Vocational & Technical Training", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/training", bgImage: "/images/srv-training.jpg" },
+    { title: "End To End Business Consultancy", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/business-consultancy", bgImage: "/images/srv-consulting.jpg" },
+    { title: "Web Development", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/web-development", bgImage: "/images/srv-web.jpg" },
+    { title: "Mobile Apps Development", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/mobile-development", bgImage: "/images/srv-mobile.jpg" },
+    { title: "Content Writing & Creation", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/content-creation", bgImage: "/images/srv-content.jpg" },
+    { title: "UI/UX Designing", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/ui-ux", bgImage: "/images/srv-uiux.jpg" },
+    { title: "User Acceptance Testing", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/uat", bgImage: "/images/srv-testing.jpg" },
+    { title: "System Integration", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/system-integration", bgImage: "/images/srv-integration.jpg" },
+    { title: "E-Commerce Solutions", description: "For any inquiries concerning our products or services, our dedicated team is available to provide comprehensive support.", href: "/services/ecommerce", bgImage: "/images/srv-ecommerce.jpg" }
+];
+
+export default function EmbeddedServicesGrid() {
+    const [showAll, setShowAll] = useState<boolean>(false);
+
+    // Slices data to exactly 6 items unless showAll is active
+    const visibleServices = showAll ? servicesData : servicesData.slice(0, 6);
 
     return (
-        <section className="bg-white py-24 px-6 lg:px-12">
-            <div className="max-w-[1440px] mx-auto">
-                {/* Header Section */}
-                <div className="flex flex-col lg:flex-row justify-between items-start mb-20 gap-8">
-                    <div>
-                        <h4 className="text-tech-orange font-bold tracking-[0.3em] uppercase text-sm mb-6">
-                            Core Competencies
-                        </h4>
-                        <h2 className="text-[#0A1116] text-5xl lg:text-7xl font-bold tracking-tighter">
-                            What we <span className="text-tech-orange">build</span>
-                        </h2>
-                    </div>
-                    <p className="text-[#0A1116]/60 max-w-[340px] text-sm leading-relaxed lg:mt-12">
-                        Engineering high-impact products that bridge the gap between human needs and technical excellence.
-                    </p>
-                </div>
-
-                {/* Staggered Grid Layout */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {/* Column 1 */}
-                    <div className="flex flex-col gap-8">
-                        <ServiceCard {...services[0]} />
-                        <ServiceCard {...services[3]} />
-                    </div>
-
-                    {/* Column 2 - Pushed Down (Offset) */}
-                    <div className="flex flex-col gap-8 lg:mt-12">
-                        <ServiceCard {...services[1]} />
-                        <ServiceCard {...services[4]} />
-                    </div>
-
-                    {/* Column 3 - Pushed even further or different offset */}
-                    <div className="flex flex-col gap-8 lg:mt-24">
-                        <ServiceCard {...services[2]} />
-                        <ServiceCard {...services[5]} />
-                    </div>
-                </div>
+        <>
+            {/* 12-Column Responsive Portfolio Grid */}
+            <div className="grid grid-cols-12 gap-6 lg:gap-8 w-full">
+                {visibleServices.map((service, index) => (
+                    <ServiceCard
+                        key={index}
+                        title={service.title}
+                        description={service.description}
+                        href={service.href}
+                        bgImage={service.bgImage}
+                    />
+                ))}
             </div>
-        </section>
-    );
-};
 
-export default Competencies;
+            {/* Dynamic Toggle Button Container */}
+            <div className="w-full flex justify-center mt-16">
+                <button
+                    onClick={() => setShowAll(!showAll)}
+                    className="border-2 border-[#0A1116] text-[#0A1116] hover:bg-[#0A1116] hover:text-white px-12 py-4 text-xs font-bold uppercase tracking-widest transition-all duration-300 rounded-md"
+                >
+                    {showAll ? "Show Less Solutions" : "Explore All Services"}
+                </button>
+            </div>
+        </>
+    );
+}

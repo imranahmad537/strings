@@ -1,12 +1,13 @@
 import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
-import Competencies from "@/components/Competencies";
+// import Competencies from "@/components/Competencies";
 import Solutions from "@/components/Solutions";
 import Statistics from "@/components/Statistics";
 import TechEcosystem from "@/components/TechEcosystem";
 import ExecutionFlow from "@/components/ExecutionFlow";
 import EngineeringInsights from "@/components/EngineerInsights";
 import FinalCTA from "@/components/FinalCTA";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -71,10 +72,11 @@ export default function Home() {
     // </div>
     <>
       <HeroSection />
-      <Competencies />
+      {/* <Competencies /> */}
       <Solutions />
       <Statistics />
       <TechEcosystem />
+      <Services />
       <ExecutionFlow />
       <EngineeringInsights />
       <FinalCTA />
