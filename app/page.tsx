@@ -7,7 +7,9 @@ import TechEcosystem from "@/components/TechEcosystem";
 import ExecutionFlow from "@/components/ExecutionFlow";
 import EngineeringInsights from "@/components/EngineerInsights";
 import FinalCTA from "@/components/FinalCTA";
-import Services from "@/components/Services";
+import ServicesGrid from "@/components/ServicesGrid";
+import ServicesPage from "./services/page";
+
 
 export default function Home() {
   return (
@@ -76,7 +78,8 @@ export default function Home() {
       <Solutions />
       <Statistics />
       <TechEcosystem />
-      <Services />
+      <ServicesGrid />
+      {/* <ServicesPage /> */}
       <ExecutionFlow />
       <EngineeringInsights />
       <FinalCTA />
