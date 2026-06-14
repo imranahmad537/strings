@@ -1,6 +1,6 @@
 import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
-// import Competencies from "@/components/Competencies";
+
 import Solutions from "@/components/Solutions";
 import Statistics from "@/components/Statistics";
 import TechEcosystem from "@/components/TechEcosystem";
