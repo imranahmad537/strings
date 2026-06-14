@@ -8,8 +8,6 @@ import ExecutionFlow from "@/components/ExecutionFlow";
 import EngineeringInsights from "@/components/EngineerInsights";
 import FinalCTA from "@/components/FinalCTA";
 import ServicesGrid from "@/components/ServicesGrid";
-import ServicesPage from "./services/page";
-
 
 export default function Home() {
   return (
@@ -74,7 +72,7 @@ export default function Home() {
     // </div>
     <>
       <HeroSection />
-      {/* <Competencies /> */}
+
       <Solutions />
       <Statistics />
       <TechEcosystem />
