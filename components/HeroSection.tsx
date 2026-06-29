@@ -81,7 +81,7 @@ export default function HeroSection() {
                     playsInline
                     className="absolute inset-0 w-full h-full object-cover object-center"
                 >
-                    <source src="/herovid.mp4" type="video/mp4" />
+                    <source src="/herovid2.mp4" type="video/mp4" />
                     {/* Optional: Add a fallback image if the video fails to load */}
                     <img src="/herobg.jpeg" alt="Fallback" className="w-full h-full object-cover" />
                 </video>

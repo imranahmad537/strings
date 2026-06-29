@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const Header = () => {
@@ -10,8 +11,8 @@ const Header = () => {
         <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A1116]/80 backdrop-blur-md border-b border-white/5">
             <div className="max-w-[1440px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="text-white text-xl font-bold tracking-tight">
-                    Strings Technologies
+                <Link href="/home" className="text-white text-xl font-bold tracking-tight">
+                    <Image src="/logo.png" alt="Logo" width={250} height={100} />
                 </Link>
 
                 {/* Navigation */}
