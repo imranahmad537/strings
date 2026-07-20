@@ -1,0 +1,30 @@
+{
+  "bitcoin": {
+    "slug": "bitcoin",
+    "title": "BITCOIN",
+    "orangeTitleWord": "Bitcoin",
+    "introText": [
+      "It allows users to send and receive money without banks or intermediaries.",
+      "Bitcoin was created in 2009 by an anonymous person or group called Satoshi Nakamoto.",
+      "It operates using blockchain technology, which records transactions securely and transparently.",
+      "The network is maintained by computers around the world instead of a central authority.",
+      "Bitcoin transactions are fast, secure, and accessible globally.",
+      "Its limited supply of 21 million coins helps prevent inflation.",
+      "Many people use Bitcoin for online payments and investment purposes.",
+      "The blockchain ensures that transaction records cannot be easily changed.",
+      "Today, Bitcoin is the most well-known and widely used cryptocurrency in the world."
+    ],
+    "introImage": "/bitcoin.jpg",
+    "section1Title": "What is",
+    "section1Content": [
+      "Bitcoin - A Revolutionary Digital Currency",
+      "Bitcoin is a digital currency that was created in 2009 by an anonymous person or group known as Satoshi Nakamoto. It is the world's first decentralized cryptocurrency, allowing people to send and receive money over the internet without the need for banks or financial institutions. Bitcoin operates on a technology called blockchain, which is a secure and transparent digital ledger that records all transactions. Unlike traditional currencies, Bitcoin is not controlled by any government or central authority.",
+      "One of the main advantages of Bitcoin is its security. Transactions are verified by a network of computers and protected through advanced cryptography. Bitcoin also offers transparency because every transaction is recorded on the public blockchain. Another benefit is lower transaction fees, especially for international payments. Users can transfer funds across borders quickly and efficiently.",
+      "Bitcoin has a limited supply of 21 million coins, making it a scarce digital asset. Many investors consider it a store of value and refer to it as \"digital gold.\" Its growing popularity has encouraged businesses and individuals worldwide to adopt cryptocurrency payments. However, Bitcoin's price can be highly volatile, and users must secure their digital wallets to protect their funds.",
+      "Overall, Bitcoin has changed the way people think about money by providing a decentralized, secure, and innovative financial system for the digital age."
+    ],
+    "bannerImage": "/bitcoin.jpg",
+    "section2Title": "Benefits of",
+    "section2Image": "/bloghero.png"
+  }
+}

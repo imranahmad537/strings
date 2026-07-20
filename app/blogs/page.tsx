@@ -41,7 +41,7 @@ const BlogRow: React.FC<BlogArticle> = ({ category, title, description, image, r
           <p className="text-[#0A1116]/70 text-lg leading-relaxed mb-8">
             {description}
           </p>
-          <Link href={`/blog/${title.toLowerCase().replace(/\s+/g, '-')}`} className="text-[#0A1116] font-bold text-[10px] tracking-widest uppercase border-b-2 border-tech-orange pb-1 hover:text-tech-orange transition-colors">
+          <Link href={`/blogs/${title.toLowerCase().replace(/\s+/g, '-')}`} className="text-[#0A1116] font-bold text-[10px] tracking-widest uppercase border-b-2 border-tech-orange pb-1 hover:text-tech-orange transition-colors">
             Read Story
           </Link>
         </div>
@@ -66,7 +66,7 @@ export default function BlogPage() {
       category: "Business",
       title: "Entrepreneur",
       description: "Building high-performance businesses in the digital age requires a shift from traditional models to agile, scalable systems.",
-      image: "/images/blog-entrepreneur.jpg",
+      image: "/blg1.png",
       reverse: true
     },
     {
@@ -74,7 +74,7 @@ export default function BlogPage() {
       category: "Tech",
       title: "Web 3.0",
       description: "The decentralization of the web is here. Explore how Web 3.0 is changing user ownership and digital transparency.",
-      image: "/images/blog-web3.jpg",
+      image: "/blg2.png",
       reverse: false
     },
     {
@@ -82,7 +82,7 @@ export default function BlogPage() {
       category: "Infrastructure",
       title: "Cloud Computing",
       description: "Scaling your business infrastructure to the cloud is no longer an option, it's a necessity for global growth.",
-      image: "/images/blog-cloud.jpg",
+      image: "/blg3.png",
       reverse: true
     }
   ];

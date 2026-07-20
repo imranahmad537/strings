@@ -56,7 +56,7 @@ const ContactPage = () => {
                             Send Us a <span className="text-tech-orange">message</span>
                         </h2>
 
-                        <form onSubmit={handleSubmit} className="space-y-8">
+                        <form onSubmit={handleSubmit} className="space-y-8 text-black">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div className="space-y-2">
                                     <label className="text-[#0A1116] font-bold text-sm">Full Name</label>
