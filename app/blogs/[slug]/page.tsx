@@ -107,8 +107,6 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 </div>
 
             </main>
-
-
         </div>
     );
 }

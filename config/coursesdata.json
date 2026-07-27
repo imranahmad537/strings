@@ -1,0 +1,218 @@
+{
+  "graphic-designing": {
+    "slug": "graphic-designing",
+    "title": "Graphic",
+    "titleHighlight": "Designing",
+    "heroDescription": "Graphic designing is the art of creating visual content to communicate ideas and messages. It combines images, colors, typography, and layouts to make designs attractive and effective. Graphic designers create logos, posters, flyers, social media posts, and other marketing materials. It helps businesses build their brand identity and attract customers. Graphic designing plays an important role in advertising, marketing, and digital communication.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "This Graphic Designing course provides a comprehensive introduction to the principles and tools of design. Students learn how to create professional logos, flyers, posters, social media posts, and branding materials using design software such as Adobe Photoshop and Adobe Illustrator. The course covers color theory, typography, layout design, and image-editing techniques. It helps learners develop creative and practical skills needed for careers in graphic design and digital marketing. By the end of this course, students will be able to create visually appealing and professional designs for various purposes.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Introduction to Design Principles", "topics": "Explore the fundamentals of design including color theory, typography, shapes, and layout. Learn how to identify great design in everyday life and understand the psychology behind effective visual communication." },
+      { "week": "Week 2", "title": "Adobe Photoshop Fundamentals", "topics": "Get hands-on with Adobe Photoshop. Cover the interface, layers, selection tools, masks, filters, and retouching techniques. Complete projects including photo manipulation, background removal, and creating social media graphics." },
+      { "week": "Week 3", "title": "Adobe Illustrator & Vector Design", "topics": "Dive into Adobe Illustrator to create scalable vector graphics. Learn the pen tool, shape builder, pathfinder, and text effects. Design logos, icons, and illustrated artwork from scratch." },
+      { "week": "Week 4", "title": "Brand Identity & Portfolio", "topics": "Bring it all together by designing a complete brand identity for a mock client — including logo, color palette, typography guide, business card, and social media kit. Build your professional portfolio and prepare for freelance work." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "This course helps students develop creative and professional graphic design skills. It provides a strong foundation in design principles, including color theory, typography, and layout design. Students gain hands-on experience using industry-standard tools such as Adobe Photoshop and Adobe Illustrator. The course focuses on both creativity and problem-solving abilities. Learners will create real-world projects, including logos, flyers, posters, and social media designs. It helps improve visual communication and problem-solving abilities. Students will learn how to build a professional design portfolio. The course also introduces branding and digital marketing concepts. It prepares learners for freelance work and career opportunities in the design industry. By the end of the course, students will have the confidence to create professional-quality designs for clients and businesses.",
+    "faqs": [
+      { "question": "Q1: Do I need any experience to start Graphic Designing?", "answer": "No. This course is designed for beginners as well as professionals. You will learn everything from basic design principles to advanced creative techniques." },
+      { "question": "Q2: What software will I learn in this course?", "answer": "You will get hands-on experience with industry-standard tools including Adobe Photoshop, Adobe Illustrator, Canva, and other essential design applications." },
+      { "question": "Q3: Will I work on real-world design projects?", "answer": "Yes. The course includes practical assignments and real-world projects such as logo design, social media posts, branding materials, and marketing creatives." },
+      { "question": "Q4: Can I start freelancing after completing this course?", "answer": "Absolutely. The course covers portfolio development, client communication, and professional design workflows to help you start your freelancing career confidently." }
+    ]
+  },
+  "wordpress": {
+    "slug": "wordpress",
+    "title": "Word",
+    "titleHighlight": "Press",
+    "heroDescription": "WordPress is a popular content management system (CMS) used to create websites and blogs. It is easy to use and does not require advanced coding skills. WordPress offers thousands of themes and plugins for customization. It is widely used for business websites, blogs, online stores, and portfolios.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "This WordPress course provides a complete introduction to website creation and management. Students will learn how to install, set up, and customize WordPress websites. The course covers themes, plugins, pages, posts, and website design. Learners will also explore website security, performance optimization, and SEO basics. Hands-on projects help students gain practical experience in building professional websites. By the end of the course, students will be able to create and manage WordPress websites confidently.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Introduction to WordPress", "topics": "Learn how to install and set up WordPress on a hosting server. Explore the WordPress dashboard, understand settings, and learn how to customize your website using themes and basic configuration." },
+      { "week": "Week 2", "title": "Pages, Posts & Plugins", "topics": "Discover how to create and manage pages and blog posts. Learn how to use the Gutenberg editor effectively. Install and configure essential plugins to extend WordPress functionality for your website." },
+      { "week": "Week 3", "title": "Website Design & Customization", "topics": "Introduction to plugins and page builders like Elementor. Learn how to design professional layouts, create custom headers and footers, and use drag-and-drop tools to build beautiful, responsive websites." },
+      { "week": "Week 4", "title": "SEO, Security & Launch", "topics": "Learn how to manage website security, improve performance, and optimize your website for search engines. By the end of this week you will have the skills to launch and maintain a professional WordPress website confidently." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "This WordPress course is designed to help students learn website creation from beginner to advanced level. It provides hands-on experience with the world's most popular content management system. Students will learn how to build professional and responsive websites without advanced coding knowledge. The course covers themes, plugins, customization, and website design. Students will also learn website security and management. Learners will get practical skills that can be used for personal projects and business websites. It also introduces SEO and website optimization techniques. The course helps improve digital and technical skills that are in high demand. Students can use these skills for freelancing and other earning opportunities. Real-world projects ensure practical learning and confidence. By the end of the course, students will be able to create and manage WordPress websites independently.",
+    "faqs": [
+      { "question": "Q1: Why should I choose WordPress for my website?", "answer": "WordPress is flexible, user-friendly, and suitable for all types of websites. It powers over 40% of all websites on the internet." },
+      { "question": "Q2: How long does a website development take?", "answer": "Most WordPress websites are completed within 5-10 business days depending on the complexity and features required." },
+      { "question": "Q3: Will my website be visible on mobile devices?", "answer": "Yes. All websites we build are fully responsive and mobile-friendly, ensuring a great experience on all screen sizes." },
+      { "question": "Q4: Can I manage the website myself?", "answer": "Yes. WordPress offers easy content management, so you do not need any technical knowledge to update your website." }
+    ]
+  },
+  "upwork-course": {
+    "slug": "upwork-course",
+    "title": "Upwork",
+    "titleHighlight": "Course",
+    "heroDescription": "The Upwork Course is a step-by-step freelance training program that teaches you how to build a strong profile, write winning proposals, and attract high-paying clients on Upwork. It provides practical strategies for client communication, project handling, and freelance growth so you can start earning confidently in the global marketplace.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "The Upwork Mastery Course is a structured roadmap to help you succeed as a freelancer on Upwork. You will learn how to create a high-converting profile, select profitable skills, and write winning proposals that attract clients. This course also covers client communication, pricing strategies, contract handling, and portfolio building. With real-world examples and practical tasks, you will gain the confidence to compete in the global freelancing market and secure long-term projects.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Profile Setup & Optimization", "topics": "Learn how to create a high-converting Upwork profile. Understand how to write a compelling bio, select the right skills, set your hourly rate, and build a strong portfolio that attracts quality clients from day one." },
+      { "week": "Week 2", "title": "Proposal Writing & Bidding", "topics": "Discover the exact proposal writing techniques that get responses. Learn how to analyze job posts, craft personalized proposals, use connects smartly, and structure your bids to maximize your chances of winning projects." },
+      { "week": "Week 3", "title": "Client Communication & Contracts", "topics": "Master professional client communication strategies. Learn how to handle interviews effectively, set clear expectations, negotiate rates confidently, and manage contracts to build trust and maintain long-term client relationships." },
+      { "week": "Week 4", "title": "Scaling & Building Reputation", "topics": "Learn strategies to earn the Rising Talent and Top Rated badges. Understand how to improve your Job Success Score, gather positive reviews, increase your rates, and build a consistent pipeline of high-paying freelance clients." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "The freelancing industry is growing rapidly, but many beginners struggle due to lack of proper guidance. Poor profiles, weak proposals, and poor use of connects often lead to failure. This course solves that problem by giving you practical, proven methods to succeed on Upwork. Whether you are a student, graphic designer, developer, writer, or digital marketer, this course will help you build skills, earn online, and grow a sustainable freelance career.",
+    "faqs": [
+      { "question": "Q1: Is this course suitable for beginners?", "answer": "Yes, this course is specifically designed for beginners as well as professionals who want to boost their freelancing career." },
+      { "question": "Q2: Will I learn how to get my first client?", "answer": "Yes, the course includes proven strategies to help you create a strong profile, write strong proposals, and secure your first client." },
+      { "question": "Q3: Do I need any experience before joining this course?", "answer": "No prior experience is required. You will learn everything from how to build your profile to advanced proposal and pricing strategies." },
+      { "question": "Q4: Can I start earning immediately after completing this course?", "answer": "You will have a profile optimized for success, proposal writing skills, pricing strategies, and everything you need to start freelancing confidently." }
+    ]
+  },
+  "digital-marketing": {
+    "slug": "digital-marketing",
+    "title": "Digital",
+    "titleHighlight": "Marketing",
+    "heroDescription": "Digital Marketing is one of the fastest-growing and most in-demand skills in today's digital economy. This course is designed to help students, entrepreneurs, freelancers, and business professionals master modern marketing strategies used by leading brands worldwide.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "The Digital Marketing Course provides comprehensive training in online marketing techniques that help businesses attract, engage, and convert customers through digital channels. Students will learn how to create effective marketing campaigns, optimize websites for search engines, run paid advertising campaigns, manage social media platforms, analyze marketing data, and develop high-converting content strategies.",
+    "curriculum": [
+      { "week": "Week 1", "title": "SEO & Content Marketing", "topics": "Learn on-page and off-page SEO, keyword research, competitor analysis, and content strategy. Understand how search engines work and how to rank websites on Google using proven optimization techniques and content planning." },
+      { "week": "Week 2", "title": "Social Media & Email Marketing", "topics": "Master social media marketing across Facebook, Instagram, LinkedIn, and TikTok. Learn how to create engaging content, grow followers organically, run social media ads, and build effective email marketing campaigns." },
+      { "week": "Week 3", "title": "Paid Advertising (PPC)", "topics": "Learn to run high-converting Google Ads and Meta (Facebook/Instagram) ad campaigns. Understand audience targeting, ad copywriting, budget management, A/B testing, and how to optimize campaigns for maximum ROI." },
+      { "week": "Week 4", "title": "Analytics, Strategy & Freelancing", "topics": "Use Google Analytics and Meta Business Suite to track performance and make data-driven decisions. Build a complete digital marketing strategy for a real business and learn how to offer digital marketing services as a freelancer." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "The Digital Marketing Course is designed to provide you with both skills that employers and clients actively see. Unlike traditional marketing programs, this course focuses on real-world applications, industry tools, and measurable business outcomes. Participants will work on live projects, case studies, and campaign simulations to develop hands-on experience. The training covers the latest digital marketing trends and best practices used by successful businesses globally.",
+    "faqs": [
+      { "question": "Q1: Who can join this course?", "answer": "The course is suitable for students, freelancers, entrepreneurs, business owners, and marketing professionals who are ready to develop digital marketing skills." },
+      { "question": "Q2: Do I need any prior experience?", "answer": "No prior experience is required. The course is designed for both beginners and those looking to enhance their marketing knowledge." },
+      { "question": "Q3: Will I work on actual projects?", "answer": "Yes. Participants will complete practical assignments and real-world projects to gain hands-on experience in digital marketing campaigns." },
+      { "question": "Q4: Will I receive a certificate after completion?", "answer": "Yes. A certificate of completion will be awarded to all students who successfully complete the course requirements and projects. This can significantly boost your credibility with potential employers and clients." }
+    ]
+  },
+  "amazon": {
+    "slug": "amazon",
+    "title": "Ama",
+    "titleHighlight": "zon",
+    "heroDescription": "The Amazon Course is a complete training program designed to help beginners and professionals start and grow a successful online business on Amazon. This course covers everything from product research and sourcing to listing optimization, branding, and sales growth strategies.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "The Amazon Mastery Course provides a complete roadmap for building a successful Amazon business. You will learn how to find winning products, analyze market demand, and set up your seller account professionally. This course also teaches product listing optimization, keyword research, pricing strategies, inventory management, and order fulfillment methods like FBA (Fulfillment by Amazon). With real-world examples and proven techniques, you will gain the skills needed to launch and scale a profitable Amazon store.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Amazon Basics & Product Research", "topics": "Learn how to find high-demand, low-competition products to sell on Amazon. Understand market research techniques, use tools like Jungle Scout and Helium 10, and identify profitable niches that match your budget and goals." },
+      { "week": "Week 2", "title": "Sourcing & Supplier Management", "topics": "Learn how to source products from reliable suppliers on Alibaba and other platforms. Understand how to negotiate prices, assess product quality, manage shipping logistics, and handle customs for importing products." },
+      { "week": "Week 3", "title": "Listing Creation & Optimization", "topics": "Master how to create optimized Amazon listings that convert. Learn to write keyword-rich titles, bullet points, and descriptions, use backend search terms effectively, and create compelling product images that drive sales." },
+      { "week": "Week 4", "title": "PPC Advertising & Scaling", "topics": "Learn to run Amazon PPC campaigns to boost your product visibility and sales. Understand automatic and manual targeting strategies, bid optimization, ACoS management, and how to scale your business into a profitable brand." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "Amazon is one of the largest e-commerce platforms in the world, offering huge opportunities for online sellers. However, many beginners fail due to lack of proper guidance in product selection, listing, and marketing. This course solves that problem by providing a clear, practical, and proven system to start and grow your Amazon business successfully. Whether you are a student, entrepreneur, or freelancer, this course will help you build a strong passive income stream through Amazon selling.",
+    "faqs": [
+      { "question": "Q1: Is this course suitable for beginners?", "answer": "Yes, this course is designed for complete beginners as well as those who want to improve their Amazon selling performance." },
+      { "question": "Q2: Do I need inventory experience to start this course?", "answer": "No experience is required. You will be guided step by step from setting up your account to launching and scaling your first product." },
+      { "question": "Q3: Will I learn how to find profitable products?", "answer": "Yes, the course includes detailed training on product research, market analysis, finding high-demand, low-competition products." },
+      { "question": "Q4: Can I start freelancing after completing this course?", "answer": "Yes, you will learn about Amazon FBA (Fulfillment by Amazon), including how it works and how to use it to provide your business and strategies." }
+    ]
+  },
+  "video-editing": {
+    "slug": "video-editing",
+    "title": "Video",
+    "titleHighlight": "Editing",
+    "heroDescription": "Video content dominates the internet, with platforms like YouTube, TikTok, and Instagram reels driving billions of views daily. Professional video editors are in massive demand from content creators, brands, and agencies. This course teaches you everything you need to create engaging, high-quality videos that captivate audiences and generate results.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "This Video Editing course covers professional editing techniques using industry-standard software including Adobe Premiere Pro and DaVinci Resolve. Students learn cuts and transitions, color grading, motion graphics, audio mixing, and storytelling through video. The course includes practical projects covering YouTube content, short-form social media videos, promotional videos, and cinematic edits.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Editing Fundamentals", "topics": "Learn the interface, timeline editing, cuts, trims, and basic transitions in Premiere Pro. Understand the principles of visual storytelling and pacing." },
+      { "week": "Week 2", "title": "Color Grading & Audio", "topics": "Master color correction and creative color grading in DaVinci Resolve. Learn audio cleanup, background music mixing, and sound design fundamentals." },
+      { "week": "Week 3", "title": "Motion Graphics & Effects", "topics": "Create animated text, lower thirds, intros/outros, and basic motion graphics using After Effects integration and built-in Premiere Pro tools." },
+      { "week": "Week 4", "title": "Content Types & Portfolio", "topics": "Edit YouTube videos, Instagram Reels, TikToks, promotional videos, and documentary-style content. Build a diverse portfolio to attract freelance clients." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "Video editing is one of the fastest-growing and highest-paying freelance skills. Every YouTuber, brand, and content creator needs a skilled video editor. This course equips you with professional skills that are immediately marketable on platforms like Upwork, Fiverr, and YouTube. You will graduate with a strong portfolio ready to impress clients.",
+    "faqs": [
+      { "question": "Q1: What software will I learn?", "answer": "Adobe Premiere Pro, DaVinci Resolve, and basic After Effects for motion graphics." },
+      { "question": "Q2: Do I need a powerful computer?", "answer": "The course provides hardware recommendations. A mid-range modern computer is sufficient to get started." },
+      { "question": "Q3: Can I edit on a Mac or PC?", "answer": "Yes. The course covers both Mac and Windows workflows for all software used." },
+      { "question": "Q4: What types of videos will I create?", "answer": "YouTube videos, Reels, TikToks, promotional videos, vlogs, and documentary-style edits." }
+    ]
+  },
+  "content-writing": {
+    "slug": "content-writing",
+    "title": "Content",
+    "titleHighlight": "Writing",
+    "heroDescription": "Content Writing is the art of creating engaging, informative, and persuasive content for digital and print platforms. It helps businesses connect with their audience, improve brand awareness, and drive conversions through powerful communication.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "The Content Writing Course provides a comprehensive introduction to professional writing for digital marketing and business growth. Whether you are a beginner or someone looking to improve your writing skills, this course covers the essential techniques required to create impactful content. You will learn how to research topics, understand audience psychology, structure content effectively, and write with clarity and confidence. The course also introduces SEO writing principles, helping you create content that ranks well on search engines and attracts more readers.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Foundations of Content Writing", "topics": "Master the basics of content writing, including how to research topics, understand your target audience, define your brand voice, and structure your articles and blogs to maximize clarity, readability, and engagement." },
+      { "week": "Week 2", "title": "SEO Writing & Keyword Strategy", "topics": "Learn how to integrate SEO into your writing by conducting keyword research, crafting SEO-friendly headlines and meta descriptions, and using tools like Google Search Console and Ubersuggest to boost content visibility in search engines." },
+      { "week": "Week 3", "title": "Social Media & Marketing Copy", "topics": "Discover how to write compelling content for social media platforms and marketing campaigns. Learn how to craft social captions, email newsletters, ad copy, and landing page content that captures attention and drives conversions." },
+      { "week": "Week 4", "title": "Portfolio Building & Freelancing", "topics": "Build your professional content writing portfolio with real-world samples across different niches. Learn how to pitch your services, set competitive rates, and start freelancing on platforms like Upwork, Fiverr, and LinkedIn." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "The Content Writing Course is designed to help students develop real writing skills that employers and clients actively value. With businesses increasingly relying on digital content to engage customers, skilled content writers are in high demand. Students will gain hands-on experience by working on real-world projects, creating blogs, website content, social media posts, and marketing copies. The course focuses on both creativity and strategy, ensuring that learners produce content that is engaging, professional, and results-driven.",
+    "faqs": [
+      { "question": "Q1: Is this course suitable for beginners?", "answer": "Yes, this course is designed for beginners as well as individuals who want to sharpen their professional writing skills." },
+      { "question": "Q2: Will I learn SEO content writing?", "answer": "Absolutely. The course covers keyword research, content analysis, and SEO best practices to help your content rank better on search engines." },
+      { "question": "Q3: Will I receive practical assignments and projects?", "answer": "Yes, students will work on real-world assignments in group and individual settings to gain practical experience and build their writing confidence." },
+      { "question": "Q4: Can I start freelancing after completing this course?", "answer": "Yes, the course includes portfolio building and freelancing guidance that will help you start working with clients and apply for content writing jobs successfully." }
+    ]
+  },
+  "script-writing": {
+    "slug": "script-writing",
+    "title": "Script",
+    "titleHighlight": "Writing",
+    "heroDescription": "Script writing is the art of creating compelling narratives for videos, ads, YouTube content, podcasts, and social media. Every high-performing piece of video content starts with a powerful script. This skill is one of the most underrated and highest-paying areas of digital content creation.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "This Script Writing course teaches you the complete craft of writing scripts for various formats — YouTube videos, short-form social media content, ad scripts, explainer videos, and podcast outlines. You will learn story structure, hook writing, pacing, call-to-action techniques, and how to match scripts to different brand voices and audiences.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Script Structure Basics", "topics": "Understand the anatomy of a great script — hook, body, and close. Learn different formats for YouTube, TikTok, and explainer videos." },
+      { "week": "Week 2", "title": "Hook Writing & Storytelling", "topics": "Master the art of writing powerful hooks that grab attention in the first 3 seconds. Learn storytelling techniques that keep viewers watching until the end." },
+      { "week": "Week 3", "title": "Ad Scripts & Brand Voice", "topics": "Write scripts for Facebook ads, YouTube pre-rolls, and promotional videos. Understand how to adapt your writing to match different brand voices and target audiences." },
+      { "week": "Week 4", "title": "Portfolio & Freelancing", "topics": "Build a diverse script writing portfolio. Learn how to pitch script writing services to YouTubers, brands, and agencies on freelance platforms." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "Every video creator and brand needs scripts, yet very few people specialize in this skill — creating massive demand and low competition. Script writers can earn premium rates because the quality of a script directly impacts video performance. This course positions you as a specialist in a growing, underserved market.",
+    "faqs": [
+      { "question": "Q1: Is script writing different from blog writing?", "answer": "Yes. Scripts are written to be spoken aloud, require different pacing, structure, and hooks compared to written articles." },
+      { "question": "Q2: Who needs script writers?", "answer": "YouTubers, brands, agencies, eCommerce businesses, coaches, and anyone creating video content." },
+      { "question": "Q3: Can I specialize in a specific niche?", "answer": "Yes. The course helps you identify your best niche and position yourself as a specialist to attract premium clients." },
+      { "question": "Q4: What deliverables will I have at the end?", "answer": "A portfolio of 5-10 diverse scripts across different formats and a complete freelancing pitch strategy." }
+    ]
+  },
+  "copy-writing": {
+    "slug": "copy-writing",
+    "title": "Copy",
+    "titleHighlight": "Writing",
+    "heroDescription": "Copywriting is the most financially rewarding writing skill in the digital world. It is the craft of writing words that persuade people to take action — buy a product, click a link, sign up for a service. Top copywriters are among the highest-paid professionals in marketing, commanding premium rates from businesses worldwide.",
+    "overviewTitle": "Course",
+    "overviewTitleHighlight": "Overview",
+    "overviewText": "This Copywriting course teaches you the psychology of persuasion and how to apply it through words that sell. You will master sales page copy, email marketing sequences, ad copy, headlines, and product descriptions. The course combines foundational copywriting frameworks with modern digital marketing contexts, preparing you to write copy that generates measurable results for clients.",
+    "curriculum": [
+      { "week": "Week 1", "title": "Copywriting Psychology", "topics": "Understand the psychology of buyer decision-making. Learn the core principles of persuasion, emotional triggers, and how to speak directly to your audience's desires and pain points." },
+      { "week": "Week 2", "title": "Frameworks & Formulas", "topics": "Master proven copywriting formulas including AIDA, PAS, Before-After-Bridge, and the 4Cs. Apply these to headlines, email subject lines, and social media ads." },
+      { "week": "Week 3", "title": "Sales Pages & Email Sequences", "topics": "Write complete sales pages and automated email marketing sequences. Learn how top copywriters structure long-form persuasive content that converts cold traffic." },
+      { "week": "Week 4", "title": "Portfolio & High-Ticket Clients", "topics": "Build a copywriting portfolio, learn how to position yourself as a specialist, and attract high-ticket clients willing to pay premium rates for conversion-focused copy." }
+    ],
+    "whyTitle": "Why This",
+    "whyTitleHighlight": "Course",
+    "whyText": "Copywriting is one of the few skills where your earnings are directly tied to the results you generate. A single great sales page can bring a business millions in revenue — and clients pay generously for that. This course gives you a skill that never becomes obsolete, works in any industry, and can be practiced from anywhere in the world with just a laptop.",
+    "faqs": [
+      { "question": "Q1: Is copywriting the same as content writing?", "answer": "No. Content writing informs and educates, while copywriting specifically persuades and drives action. Both are valuable but copywriting commands higher rates." },
+      { "question": "Q2: What industries hire copywriters?", "answer": "Every industry — eCommerce, SaaS, finance, health, coaching, agencies, and more. Every business that sells something needs copy." },
+      { "question": "Q3: Do I need to know about the products I write for?", "answer": "The course teaches you the research process to quickly understand any product and write convincingly about it." },
+      { "question": "Q4: How much can copywriters earn?", "answer": "Skilled copywriters earn anywhere from $30-$150+ per hour or $500-$5000+ per sales page depending on their experience and specialization." }
+    ]
+  }
+}
